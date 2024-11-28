@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#001f3d"/>
+  
+  <!-- Title -->
+  <text x="50%" y="30" font-size="24" font-family="Arial" text-anchor="middle" fill="#ffffff">Bank Management System</text>
+
+  <!-- Steps -->
+  <!-- User Login -->
+  <rect x="50" y="80" width="150" height="50" rx="10" fill="#0096c7" stroke="#007fa1" stroke-width="2"/>
+  <text x="125" y="110" font-size="16" font-family="Arial" text-anchor="middle" fill="white">User Login</text>
+
+  <!-- Account Creation -->
+  <rect x="50" y="160" width="150" height="50" rx="10" fill="#00b4d8" stroke="#0087a2" stroke-width="2"/>
+  <text x="125" y="190" font-size="16" font-family="Arial" text-anchor="middle" fill="white">Account Creation</text>
+
+  <!-- Deposit -->
+  <rect x="50" y="240" width="150" height="50" rx="10" fill="#00b5e2" stroke="#007b95" stroke-width="2"/>
+  <text x="125" y="270" font-size="16" font-family="Arial" text-anchor="middle" fill="white">Deposit</text>
+
+  <!-- Withdrawal -->
+  <rect x="50" y="320" width="150" height="50" rx="10" fill="#0077b6" stroke="#006494" stroke-width="2"/>
+  <text x="125" y="350" font-size="16" font-family="Arial" text-anchor="middle" fill="white">Withdrawal</text>
+
+  <!-- Loan Processing -->
+  <rect x="250" y="160" width="150" height="50" rx="10" fill="#0096c7" stroke="#007fa1" stroke-width="2"/>
+  <text x="325" y="190" font-size="16" font-family="Arial" text-anchor="middle" fill="white">Loan Processing</text>
+
+  <!-- Account Balance Check -->
+  <rect x="250" y="240" width="150" height="50" rx="10" fill="#00b4d8" stroke="#0087a2" stroke-width="2"/>
+  <text x="325" y="270" font-size="16" font-family="Arial" text-anchor="middle" fill="white">Balance Check</text>
+
+  <!-- Transaction History -->
+  <rect x="250" y="320" width="150" height="50" rx="10" fill="#00b5e2" stroke="#007b95" stroke-width="2"/>
+  <text x="325" y="350" font-size="16" font-family="Arial" text-anchor="middle" fill="white">Transaction History</text>
+
+  <!-- Arrows -->
+  <line x1="200" y1="105" x2="200" y2="155" stroke="#007fa1" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="200" y1="185" x2="200" y2="235" stroke="#0087a2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="200" y1="265" x2="200" y2="315" stroke="#006494" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="185" x2="400" y2="235" stroke="#007fa1" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <polygon points="0,5 10,0 10,10" fill="#007fa1"/>
+    </marker>
+  </defs>
+
+</svg>

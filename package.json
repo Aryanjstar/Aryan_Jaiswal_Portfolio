@@ -1,0 +1,98 @@
+{
+  "name": "next-portfolio",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": {
+    "name": "Aryan Jaiswal",
+    "email": "aryanjstar3@gmail.com",
+    "url": "https://github.com/Aryanjstar/Aryan_Jaiswal_Portfolio"
+  },
+  "description": "Modern & Minimalist Next.js Portfolio.",
+  "keywords": [
+    "reactjs",
+    "nextjs",
+    "vercel",
+    "react",
+    "aceternity",
+    "aceternity-ui",
+    "shadcn",
+    "shadcn-ui",
+    "radix-ui",
+    "cn",
+    "clsx",
+    "modern-portfolio",
+    "portfolio",
+    "3d-portfolio",
+    "animated-portfolio",
+    "nextjs-portfolio",
+    "react-portfolio",
+    "react-three-fiber",
+    "three.js",
+    "animated-website",
+    "framer",
+    "framer-motion",
+    "three",
+    "react-icons",
+    "lucide-react",
+    "next-themes",
+    "postcss",
+    "prettier",
+    "react-dom",
+    "tailwindcss",
+    "tailwindcss-animate",
+    "ui/ux",
+    "js",
+    "javascript",
+    "typescript",
+    "eslint",
+    "html",
+    "css"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aryanjstar/Aryan_Jaiswal_Portfolio"
+  },
+  "homepage": "https://github.com/AryanjstarAryan_Jaiswal_Portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/Aryanjstar/Aryan_Jaiswal_Portfolio/issues",
+    "email": "aryanjstar3@gmail.com"
+  },
+ 
+  "dependencies": {
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.6",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.6",
+    "mini-svg-data-uri": "^1.4.4",
+    "next": "14.2.10",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-lottie": "^1.2.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.164.1",
+    "three-globe": "^2.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-lottie": "^1.2.10",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "eslint-plugin-unused-imports": "^3.2.0",
+    "postcss": "^8",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
