@@ -186,40 +186,6 @@ Microsoft Learn Student Ambassadors (MLSA) is a global community of student lead
   
 ]as const;
 
-//  export const companies = [
-//   {
-//     id: 1,
-//     name: "Infosys Springboard",
-//     img: "/infosys.png",
-//     nameImg: "/infosys.png",
-//   },
-  // {
-  //   id: 2,
-  //   name: "appwrite",
-  //   img: "/HG.jpeg",
-  //   nameImg: "/appName.svg",
-  // },
-  // {
-  //   id: 3,
-  //   name: "HOSTINGER",
-  //   img: "/host.svg",
-  //   // nameImg: "/hostName.svg",
-  // },
-  // {
-  //   id: 4,
-  //   name: "stream",
-  //   img: "/s.svg",
-  //   nameImg: "/streamName.svg",
-  // },
-  // {
-  //   id: 5,
-  //   name: "docker.",
-  //   img: "/dock.svg",
-  //   nameImg: "/dockerName.svg",
-  // },
-//   }
-// ] as const;
-
 export const workExperience = [
   {
     id: 1,
@@ -236,20 +202,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  // {
-  //   id: 3,
-  //   title: "Freelance App Dev Project",
-  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-  //   className: "md:col-span-2", // change to md:col-span-2
-  //   thumbnail: "/exp3.svg",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Lead Frontend Developer",
-  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/exp4.svg",
-  // },
+
 ] as const;
 
 export const socialMedia = [
@@ -272,5 +225,5 @@ export const socialMedia = [
 
 export const techStack = {
   stack1: ["React.js", "Next.js", "MongoDB"],
-  stack2: ["C++", "Node.js", "Python"],
+  stack2: ["Vue.js", "Typescript", "Python"],
 } as const;
