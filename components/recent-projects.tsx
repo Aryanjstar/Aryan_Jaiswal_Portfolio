@@ -16,12 +16,12 @@ export const RecentProjects = () => {
 
       <div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 gap-y-8 p-4">
         {projects.map(
-          ({ id, des, iconLists, img, link, sourceCode, title }) => (
+          ({ id, des, iconLists, img, sourceCode, title }) => (
             <div
               key={id}
               className="flex h-[32rem] w-[90vw] items-center justify-center sm:h-[41rem] sm:w-[570px] lg:min-h-[32.5rem]"
             >
-              <PinContainer title="Visit" href={link}>
+              <PinContainer title="Visit" href={"https://github.com/Aryanjstar"}>
                 <div className="relative mb-10 flex h-[30vh] w-[80vw] items-center justify-center overflow-hidden sm:h-[40vh] sm:w-[570px]">
                   <div className="relative h-full w-full overflow-hidden bg-[#13162d] lg:rounded-3xl">
                     <Image
