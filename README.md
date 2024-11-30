@@ -1,5 +1,23 @@
 # Modern & Minimalist Next.js Portfolio.
 
+### GitHub Profile Description:  
+
+👋 **Hello!** Welcome to the GitHub repository showcasing my personal **Portfolio Website** project!  
+
+🚀 **About the Project**:  
+This portfolio reflects my journey as a developer and serves as a hub for my achievements, projects, and skills. Built using **React.js, Next.js, and Tailwind CSS**, it combines sleek design with functionality to deliver an engaging user experience.  
+
+💻 **Key Features**:  
+- **Dynamic UI**: Bento grids and infinite loops enhance interactivity and modern appeal.  
+- **Functional Integrations**: Tools like **SendGrid** ensure robust capabilities.  
+- **Responsive Design**: Deployed on **Netlify**, offering seamless access across devices.  
+- **Aesthetic Animations**: Adding a visual edge to the browsing experience.  
+
+🌟 **Development Milestone**:  
+This project marks a significant leap from my first HTML-CSS website deployed exactly a year ago. Dedicating an entire day and night to its completion, it represents my dedication, growth, and passion for web development.  
+
+Feel free to explore the repository, share your feedback, and contribute ideas. Let’s build something amazing together! 🌐
+
 ![Modern & Minimalist Next.js Portfolio.](/.github/images/img_main.png "Modern & Minimalist Next.js Portfolio.")
 
 [![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://www.linkedin.com/in/aryanjstar
