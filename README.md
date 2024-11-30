@@ -3,7 +3,7 @@
 👋 **Hello!** Welcome to the GitHub repository showcasing my personal **Portfolio Website** project!  
 
 🚀 **About the Project**:  
-This portfolio reflects my journey as a developer and serves as a hub for my achievements, projects, and skills. Built using **React.js, Next.js, and Tailwind CSS**, it combines sleek design with functionality to deliver an engaging user experience.  
+This portfolio reflects my journey as a developer and serves as a hub for my achievements, projects, and skills. Built using **React.js, **Next.js**, **Three.js** and **Tailwind CSS**, it combines sleek design with functionality to deliver an engaging user experience.  
 
 💻 **Key Features**:  
 - **Dynamic UI**: Bento grids and infinite loops enhance interactivity and modern appeal.  
