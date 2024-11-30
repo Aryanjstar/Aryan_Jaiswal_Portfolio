@@ -1,7 +1,5 @@
 # Modern & Minimalist Next.js Portfolio.
 
-### GitHub Profile Description:  
-
 👋 **Hello!** Welcome to the GitHub repository showcasing my personal **Portfolio Website** project!  
 
 🚀 **About the Project**:  
@@ -17,6 +15,8 @@ This portfolio reflects my journey as a developer and serves as a hub for my ach
 This project marks a significant leap from my first HTML-CSS website deployed exactly a year ago. Dedicating an entire day and night to its completion, it represents my dedication, growth, and passion for web development.  
 
 Feel free to explore the repository, share your feedback, and contribute ideas. Let’s build something amazing together! 🌐
+
+## Homepage:
 
 ![Modern & Minimalist Next.js Portfolio.](/.github/images/img_main.png "Modern & Minimalist Next.js Portfolio.")
 
