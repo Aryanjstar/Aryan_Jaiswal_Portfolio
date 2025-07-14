@@ -8,18 +8,18 @@ import { socialMedia } from "@/data";
 
 export const Footer = () => {
 	return (
-		<footer id="contact" className="mb-[100px] w-full pb-10 md:mb-auto">
-			<div className="absolute -bottom-72 left-0 min-h-96 w-full">
+		<footer id="contact" className="relative w-full pb-10">
+			<div className="absolute inset-0 w-full h-full">
 				<Image
 					src="/footer-grid.svg"
 					alt="grid"
-					className="h-full w-full opacity-50"
+					className="h-full w-full opacity-50 object-cover"
 					width={1260}
 					height={863}
 				/>
 			</div>
 
-			<div className="flex flex-col items-center">
+			<div className="relative z-10 flex flex-col items-center">
 				<h1 className="heading lg:max-w-[45vw]">
 					Ready to start <span className="text-purple">my</span> journey in tech
 					with your team?
@@ -45,7 +45,7 @@ export const Footer = () => {
 				</Link>
 			</div>
 
-			<div className="relative z-[999] mt-16 flex flex-col items-center justify-between gap-6 md:flex-row md:gap-0">
+			<div className="relative z-10 mt-16 flex flex-col items-center justify-between gap-6 md:flex-row md:gap-0">
 				<p className="text-center text-sm font-light md:text-left md:text-base md:font-normal">
 					Copyright &copy; {new Date().getFullYear()}{" "}
 					<Link

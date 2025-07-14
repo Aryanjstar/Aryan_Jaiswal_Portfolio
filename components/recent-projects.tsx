@@ -14,12 +14,12 @@ export const RecentProjects = () => {
 			</h1>
 
 			<div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 gap-y-8 p-4">
-							{projects.map((project) => {
-				const { id, des, iconLists, img, sourceCode, title } = project;
-				const demoLink = 'demoLink' in project ? project.demoLink : undefined;
-				const liveLink = 'liveLink' in project ? project.liveLink : undefined;
-				
-				return (
+				{projects.map((project) => {
+					const { id, des, iconLists, img, sourceCode, title } = project;
+					const demoLink = "demoLink" in project ? project.demoLink : undefined;
+					const liveLink = "liveLink" in project ? project.liveLink : undefined;
+
+					return (
 						<div
 							key={id}
 							className="flex h-[32rem] w-[90vw] items-center justify-center sm:h-[41rem] sm:w-[570px] lg:min-h-[32.5rem]"
@@ -74,19 +74,19 @@ export const RecentProjects = () => {
 									</div>
 
 									<div className="flex items-center justify-center gap-4">
-										{liveLink && (
-											<div className="flex items-center">
-												<Link
-													href={liveLink}
-													target="_blank"
-													rel="noreferrer noopener"
-													className="flex text-sm text-purple md:text-xs lg:text-xl"
-												>
-													Live Site
-												</Link>
-												<FaLocationArrow className="ms-2" color="#cbacf9" />
-											</div>
-										)}
+																			{liveLink && (
+										<div className="flex items-center">
+											<Link
+												href={liveLink}
+												target="_blank"
+												rel="noreferrer noopener"
+												className="flex text-sm text-purple md:text-xs lg:text-xl"
+											>
+												Live
+											</Link>
+											<FaLocationArrow className="ms-2" color="#cbacf9" />
+										</div>
+									)}
 
 										{demoLink && (
 											<div className="flex items-center">
