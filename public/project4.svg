@@ -1,0 +1,118 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#grad2)"/>
+  
+  <!-- Microsoft Logo Style -->
+  <g transform="translate(80,60)">
+    <rect x="0" y="0" width="15" height="15" fill="#f25022"/>
+    <rect x="17" y="0" width="15" height="15" fill="#7fba00"/>
+    <rect x="0" y="17" width="15" height="15" fill="#00a4ef"/>
+    <rect x="17" y="17" width="15" height="15" fill="#ffb900"/>
+  </g>
+  
+  <!-- IIIT Building/Education Icon -->
+  <g transform="translate(150,70)">
+    <!-- Building Base -->
+    <rect x="0" y="50" width="100" height="60" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" stroke-width="2"/>
+    <!-- Columns -->
+    <rect x="10" y="30" width="8" height="80" fill="#60a5fa"/>
+    <rect x="25" y="30" width="8" height="80" fill="#60a5fa"/>
+    <rect x="40" y="30" width="8" height="80" fill="#60a5fa"/>
+    <rect x="55" y="30" width="8" height="80" fill="#60a5fa"/>
+    <rect x="70" y="30" width="8" height="80" fill="#60a5fa"/>
+    <rect x="85" y="30" width="8" height="80" fill="#60a5fa"/>
+    <!-- Roof -->
+    <polygon points="50,10 10,30 90,30" fill="#3b82f6"/>
+    <!-- Entrance -->
+    <rect x="40" y="80" width="20" height="30" fill="rgba(30, 64, 175, 0.8)"/>
+  </g>
+  
+  <!-- Community Network -->
+  <g transform="translate(200,150)">
+    <!-- Central Hub -->
+    <circle cx="0" cy="0" r="15" fill="url(#grad1)" opacity="0.8"/>
+    <text x="0" y="5" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="600">MLSA</text>
+    
+    <!-- Connected Nodes (Students) -->
+    <circle cx="-40" cy="-20" r="8" fill="#60a5fa" opacity="0.8"/>
+    <circle cx="40" cy="-20" r="8" fill="#60a5fa" opacity="0.8"/>
+    <circle cx="-40" cy="20" r="8" fill="#60a5fa" opacity="0.8"/>
+    <circle cx="40" cy="20" r="8" fill="#60a5fa" opacity="0.8"/>
+    <circle cx="0" cy="-40" r="8" fill="#60a5fa" opacity="0.8"/>
+    <circle cx="0" cy="40" r="8" fill="#60a5fa" opacity="0.8"/>
+    
+    <!-- Connection Lines -->
+    <line x1="-40" y1="-20" x2="0" y2="0" stroke="#93c5fd" stroke-width="2" opacity="0.6"/>
+    <line x1="40" y1="-20" x2="0" y2="0" stroke="#93c5fd" stroke-width="2" opacity="0.6"/>
+    <line x1="-40" y1="20" x2="0" y2="0" stroke="#93c5fd" stroke-width="2" opacity="0.6"/>
+    <line x1="40" y1="20" x2="0" y2="0" stroke="#93c5fd" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="-40" x2="0" y2="0" stroke="#93c5fd" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="40" x2="0" y2="0" stroke="#93c5fd" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- Website Interface -->
+  <g transform="translate(280,80)">
+    <rect x="0" y="0" width="80" height="50" fill="rgba(59, 130, 246, 0.1)" stroke="#3b82f6" stroke-width="2" rx="5"/>
+    <!-- Header -->
+    <rect x="0" y="0" width="80" height="12" fill="#3b82f6" rx="5"/>
+    <!-- Navigation -->
+    <rect x="5" y="18" width="15" height="3" fill="#60a5fa" rx="1"/>
+    <rect x="25" y="18" width="15" height="3" fill="#60a5fa" rx="1"/>
+    <rect x="45" y="18" width="15" height="3" fill="#60a5fa" rx="1"/>
+    <!-- Content -->
+    <rect x="5" y="28" width="70" height="2" fill="#93c5fd" rx="1"/>
+    <rect x="5" y="33" width="50" height="2" fill="#93c5fd" rx="1"/>
+    <rect x="5" y="38" width="60" height="2" fill="#93c5fd" rx="1"/>
+    <rect x="5" y="43" width="45" height="2" fill="#93c5fd" rx="1"/>
+  </g>
+  
+  <!-- Learning Resources Icons -->
+  <g transform="translate(50,160)">
+    <!-- Book Stack -->
+    <rect x="0" y="15" width="25" height="4" fill="#3b82f6" rx="1"/>
+    <rect x="0" y="11" width="25" height="4" fill="#60a5fa" rx="1"/>
+    <rect x="0" y="7" width="25" height="4" fill="#93c5fd" rx="1"/>
+    <!-- Open Book -->
+    <path d="M 35 10 Q 40 5 45 10 L 45 20 Q 40 15 35 20 Z" fill="#3b82f6"/>
+    <path d="M 45 10 Q 50 5 55 10 L 55 20 Q 50 15 45 20 Z" fill="#60a5fa"/>
+  </g>
+  
+  <!-- Events/Workshops Icons -->
+  <g transform="translate(320,180)">
+    <!-- Calendar -->
+    <rect x="0" y="0" width="20" height="25" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" stroke-width="1" rx="2"/>
+    <rect x="0" y="0" width="20" height="7" fill="#3b82f6" rx="2"/>
+    <circle cx="5" cy="-2" r="1" fill="#1d4ed8"/>
+    <circle cx="15" cy="-2" r="1" fill="#1d4ed8"/>
+    <!-- Calendar Days -->
+    <rect x="3" y="10" width="3" height="3" fill="#60a5fa"/>
+    <rect x="8" y="10" width="3" height="3" fill="#60a5fa"/>
+    <rect x="13" y="10" width="3" height="3" fill="#60a5fa"/>
+    <rect x="3" y="15" width="3" height="3" fill="#93c5fd"/>
+    <rect x="8" y="15" width="3" height="3" fill="#3b82f6"/>
+    <rect x="13" y="15" width="3" height="3" fill="#93c5fd"/>
+  </g>
+  
+  <!-- Floating Tech Icons -->
+  <circle cx="60" cy="40" r="2" fill="#60a5fa" opacity="0.8"/>
+  <circle cx="340" cy="50" r="2" fill="#60a5fa" opacity="0.8"/>
+  <circle cx="370" cy="140" r="2" fill="#60a5fa" opacity="0.8"/>
+  <circle cx="30" cy="230" r="2" fill="#60a5fa" opacity="0.8"/>
+  
+  <!-- Title Background -->
+  <rect x="110" y="240" width="180" height="30" fill="rgba(59, 130, 246, 0.1)" rx="15"/>
+  
+  <!-- Title Text -->
+  <text x="200" y="260" text-anchor="middle" fill="#60a5fa" font-family="Arial, sans-serif" font-size="14" font-weight="600">MLSA IIIT Dharwad</text>
+</svg> 

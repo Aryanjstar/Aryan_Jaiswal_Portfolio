@@ -1,0 +1,75 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#065f46;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#grad2)"/>
+  
+  <!-- Resume Document -->
+  <rect x="140" y="40" width="120" height="160" fill="#ffffff" rx="8"/>
+  <rect x="140" y="40" width="120" height="30" fill="url(#grad1)" rx="8"/>
+  <rect x="140" y="70" width="120" height="130" fill="#ffffff"/>
+  
+  <!-- Document Header -->
+  <circle cx="160" cy="55" r="8" fill="#ffffff"/>
+  <rect x="175" y="48" width="40" height="4" fill="#ffffff" rx="2"/>
+  <rect x="175" y="57" width="30" height="3" fill="#ffffff" rx="1"/>
+  
+  <!-- Document Lines -->
+  <rect x="150" y="85" width="80" height="2" fill="#e5e7eb" rx="1"/>
+  <rect x="150" y="95" width="100" height="2" fill="#e5e7eb" rx="1"/>
+  <rect x="150" y="105" width="90" height="2" fill="#e5e7eb" rx="1"/>
+  <rect x="150" y="115" width="85" height="2" fill="#e5e7eb" rx="1"/>
+  
+  <rect x="150" y="130" width="70" height="2" fill="#e5e7eb" rx="1"/>
+  <rect x="150" y="140" width="95" height="2" fill="#e5e7eb" rx="1"/>
+  <rect x="150" y="150" width="80" height="2" fill="#e5e7eb" rx="1"/>
+  
+  <rect x="150" y="165" width="60" height="2" fill="#e5e7eb" rx="1"/>
+  <rect x="150" y="175" width="90" height="2" fill="#e5e7eb" rx="1"/>
+  <rect x="150" y="185" width="75" height="2" fill="#e5e7eb" rx="1"/>
+  
+  <!-- AI Analysis Indicators -->
+  <circle cx="270" cy="90" r="15" fill="url(#grad1)" opacity="0.2"/>
+  <path d="M 265 90 L 268 93 L 275 86" stroke="#10b981" stroke-width="2" fill="none"/>
+  
+  <circle cx="280" cy="130" r="15" fill="url(#grad1)" opacity="0.2"/>
+  <path d="M 275 130 L 278 133 L 285 126" stroke="#10b981" stroke-width="2" fill="none"/>
+  
+  <circle cx="275" cy="170" r="15" fill="url(#grad1)" opacity="0.2"/>
+  <path d="M 270 170 L 273 173 L 280 166" stroke="#10b981" stroke-width="2" fill="none"/>
+  
+  <!-- Data Flow Lines -->
+  <path d="M 290 90 Q 320 90 340 110" stroke="#34d399" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 295 130 Q 315 130 335 140" stroke="#34d399" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 290 170 Q 310 170 330 175" stroke="#34d399" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Analysis Results -->
+  <rect x="310" y="100" width="70" height="40" fill="rgba(16, 185, 129, 0.1)" stroke="#10b981" stroke-width="1" rx="5"/>
+  <text x="345" y="115" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="10" font-weight="600">Score: 85%</text>
+  <text x="345" y="128" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="9">Keywords: 12</text>
+  
+  <!-- PowerUp Symbol -->
+  <circle cx="120" cy="120" r="25" fill="url(#grad1)" opacity="0.3"/>
+  <path d="M 110 120 L 118 110 L 115 120 L 125 120 L 117 130 L 120 120 Z" fill="#10b981"/>
+  
+  <!-- Floating Enhancement Icons -->
+  <circle cx="80" cy="80" r="3" fill="#34d399" opacity="0.8"/>
+  <circle cx="320" cy="60" r="3" fill="#34d399" opacity="0.8"/>
+  <circle cx="360" cy="190" r="3" fill="#34d399" opacity="0.8"/>
+  <circle cx="60" cy="180" r="3" fill="#34d399" opacity="0.8"/>
+  
+  <!-- Title Background -->
+  <rect x="120" y="240" width="160" height="30" fill="rgba(16, 185, 129, 0.1)" rx="15"/>
+  
+  <!-- Title Text -->
+  <text x="200" y="260" text-anchor="middle" fill="#34d399" font-family="Arial, sans-serif" font-size="14" font-weight="600">PowerUPResume</text>
+</svg> 
