@@ -1,0 +1,4 @@
+[config]
+SCM_DO_BUILD_DURING_DEPLOYMENT=true
+WEBSITE_NODE_DEFAULT_VERSION=20.x
+command = bash startup.sh 

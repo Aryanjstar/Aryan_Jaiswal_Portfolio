@@ -1,0 +1,62 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#312e81;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#grad2)"/>
+  
+  <!-- AI Brain Icon -->
+  <circle cx="200" cy="120" r="45" fill="url(#grad1)" opacity="0.3"/>
+  <circle cx="200" cy="120" r="35" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+  
+  <!-- Neural Network Connections -->
+  <circle cx="160" cy="100" r="3" fill="#8b5cf6"/>
+  <circle cx="240" cy="100" r="3" fill="#8b5cf6"/>
+  <circle cx="160" cy="140" r="3" fill="#8b5cf6"/>
+  <circle cx="240" cy="140" r="3" fill="#8b5cf6"/>
+  <circle cx="200" cy="80" r="3" fill="#8b5cf6"/>
+  <circle cx="200" cy="160" r="3" fill="#8b5cf6"/>
+  
+  <!-- Connection Lines -->
+  <line x1="160" y1="100" x2="200" y2="120" stroke="#8b5cf6" stroke-width="1" opacity="0.6"/>
+  <line x1="240" y1="100" x2="200" y2="120" stroke="#8b5cf6" stroke-width="1" opacity="0.6"/>
+  <line x1="160" y1="140" x2="200" y2="120" stroke="#8b5cf6" stroke-width="1" opacity="0.6"/>
+  <line x1="240" y1="140" x2="200" y2="120" stroke="#8b5cf6" stroke-width="1" opacity="0.6"/>
+  <line x1="200" y1="80" x2="200" y2="120" stroke="#8b5cf6" stroke-width="1" opacity="0.6"/>
+  <line x1="200" y1="160" x2="200" y2="120" stroke="#8b5cf6" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Career Path Arrow -->
+  <path d="M 100 200 Q 200 180 300 200" stroke="#cbacf9" stroke-width="3" fill="none"/>
+  <path d="M 290 195 L 300 200 L 290 205" stroke="#cbacf9" stroke-width="3" fill="none"/>
+  
+  <!-- Document/Resume Icon -->
+  <rect x="80" y="190" width="20" height="25" fill="#cbacf9" opacity="0.7" rx="2"/>
+  <line x1="85" y1="197" x2="95" y2="197" stroke="#1e1b4b" stroke-width="1"/>
+  <line x1="85" y1="202" x2="95" y2="202" stroke="#1e1b4b" stroke-width="1"/>
+  <line x1="85" y1="207" x2="95" y2="207" stroke="#1e1b4b" stroke-width="1"/>
+  
+  <!-- Target/Goal Icon -->
+  <circle cx="310" cy="200" r="12" fill="none" stroke="#cbacf9" stroke-width="2"/>
+  <circle cx="310" cy="200" r="7" fill="none" stroke="#cbacf9" stroke-width="2"/>
+  <circle cx="310" cy="200" r="3" fill="#cbacf9"/>
+  
+  <!-- Floating Data Points -->
+  <circle cx="120" cy="60" r="2" fill="#8b5cf6" opacity="0.8"/>
+  <circle cx="280" cy="70" r="2" fill="#8b5cf6" opacity="0.8"/>
+  <circle cx="350" cy="120" r="2" fill="#8b5cf6" opacity="0.8"/>
+  <circle cx="50" cy="150" r="2" fill="#8b5cf6" opacity="0.8"/>
+  
+  <!-- Title Background -->
+  <rect x="120" y="240" width="160" height="30" fill="rgba(139, 92, 246, 0.1)" rx="15"/>
+  
+  <!-- Title Text -->
+  <text x="200" y="260" text-anchor="middle" fill="#cbacf9" font-family="Arial, sans-serif" font-size="14" font-weight="600">AI Career Navigator</text>
+</svg> 

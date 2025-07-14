@@ -1,0 +1,125 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#be185d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#831843;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9d174d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#grad2)"/>
+  
+  <!-- Main Browser Window -->
+  <g transform="translate(60,40)">
+    <rect x="0" y="0" width="280" height="180" fill="rgba(0,0,0,0.3)" stroke="#ec4899" stroke-width="2" rx="8"/>
+    <!-- Browser Header -->
+    <rect x="0" y="0" width="280" height="25" fill="#ec4899" rx="8"/>
+    <rect x="0" y="15" width="280" height="10" fill="#ec4899"/>
+    <!-- Traffic Lights -->
+    <circle cx="15" cy="12" r="4" fill="#ff5f56"/>
+    <circle cx="30" cy="12" r="4" fill="#ffbd2e"/>
+    <circle cx="45" cy="12" r="4" fill="#27ca3f"/>
+    <!-- URL Bar -->
+    <rect x="70" y="6" width="150" height="13" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="145" y="15" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">portfolio.dev</text>
+    
+    <!-- Portfolio Content -->
+    <!-- Hero Section -->
+    <rect x="10" y="35" width="260" height="40" fill="rgba(236, 72, 153, 0.1)" rx="5"/>
+    <circle cx="40" cy="55" r="12" fill="#f9a8d4"/>
+    <rect x="60" y="45" width="80" height="4" fill="#f9a8d4" rx="2"/>
+    <rect x="60" y="55" width="120" height="3" fill="#f9a8d4" rx="1"/>
+    <rect x="60" y="65" width="100" height="3" fill="#f9a8d4" rx="1"/>
+    
+    <!-- Skills Grid -->
+    <g transform="translate(10,85)">
+      <rect x="0" y="0" width="40" height="25" fill="rgba(236, 72, 153, 0.2)" rx="3"/>
+      <text x="20" y="15" text-anchor="middle" fill="#f9a8d4" font-family="Arial, sans-serif" font-size="8">React</text>
+      
+      <rect x="45" y="0" width="40" height="25" fill="rgba(236, 72, 153, 0.2)" rx="3"/>
+      <text x="65" y="15" text-anchor="middle" fill="#f9a8d4" font-family="Arial, sans-serif" font-size="8">Next.js</text>
+      
+      <rect x="90" y="0" width="40" height="25" fill="rgba(236, 72, 153, 0.2)" rx="3"/>
+      <text x="110" y="15" text-anchor="middle" fill="#f9a8d4" font-family="Arial, sans-serif" font-size="8">Three.js</text>
+      
+      <rect x="135" y="0" width="40" height="25" fill="rgba(236, 72, 153, 0.2)" rx="3"/>
+      <text x="155" y="15" text-anchor="middle" fill="#f9a8d4" font-family="Arial, sans-serif" font-size="8">TypeScript</text>
+    </g>
+    
+    <!-- Projects Section -->
+    <g transform="translate(10,120)">
+      <rect x="0" y="0" width="60" height="40" fill="rgba(236, 72, 153, 0.1)" stroke="#ec4899" stroke-width="1" rx="3"/>
+      <rect x="5" y="5" width="50" height="20" fill="#f9a8d4" rx="2"/>
+      <rect x="5" y="30" width="30" height="2" fill="#ec4899" rx="1"/>
+      <rect x="5" y="35" width="40" height="2" fill="#ec4899" rx="1"/>
+      
+      <rect x="70" y="0" width="60" height="40" fill="rgba(236, 72, 153, 0.1)" stroke="#ec4899" stroke-width="1" rx="3"/>
+      <rect x="75" y="5" width="50" height="20" fill="#f9a8d4" rx="2"/>
+      <rect x="75" y="30" width="30" height="2" fill="#ec4899" rx="1"/>
+      <rect x="75" y="35" width="40" height="2" fill="#ec4899" rx="1"/>
+      
+      <rect x="140" y="0" width="60" height="40" fill="rgba(236, 72, 153, 0.1)" stroke="#ec4899" stroke-width="1" rx="3"/>
+      <rect x="145" y="5" width="50" height="20" fill="#f9a8d4" rx="2"/>
+      <rect x="145" y="30" width="30" height="2" fill="#ec4899" rx="1"/>
+      <rect x="145" y="35" width="40" height="2" fill="#ec4899" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- 3D Elements -->
+  <g transform="translate(320,60)">
+    <!-- 3D Cube -->
+    <path d="M 0 20 L 15 5 L 35 5 L 20 20 Z" fill="#ec4899" opacity="0.8"/>
+    <path d="M 20 20 L 35 5 L 35 25 L 20 40 Z" fill="#be185d" opacity="0.8"/>
+    <path d="M 0 20 L 20 20 L 20 40 L 0 40 Z" fill="#f9a8d4" opacity="0.8"/>
+  </g>
+  
+  <!-- Code Elements -->
+  <g transform="translate(30,200)">
+    <rect x="0" y="0" width="100" height="60" fill="rgba(0,0,0,0.4)" stroke="#ec4899" stroke-width="1" rx="5"/>
+    <!-- Code Lines -->
+    <text x="5" y="15" fill="#f9a8d4" font-family="monospace" font-size="8">&lt;div className="hero"&gt;</text>
+    <text x="5" y="25" fill="#f9a8d4" font-family="monospace" font-size="8">  &lt;h1&gt;Aryan&lt;/h1&gt;</text>
+    <text x="5" y="35" fill="#f9a8d4" font-family="monospace" font-size="8">  &lt;p&gt;Developer&lt;/p&gt;</text>
+    <text x="5" y="45" fill="#f9a8d4" font-family="monospace" font-size="8">&lt;/div&gt;</text>
+  </g>
+  
+  <!-- Responsive Design Icons -->
+  <g transform="translate(260,220)">
+    <!-- Desktop -->
+    <rect x="0" y="0" width="25" height="15" fill="none" stroke="#f9a8d4" stroke-width="1" rx="2"/>
+    <rect x="10" y="15" width="5" height="3" fill="#f9a8d4"/>
+    <rect x="8" y="18" width="9" height="2" fill="#f9a8d4"/>
+    
+    <!-- Tablet -->
+    <rect x="35" y="2" width="12" height="18" fill="none" stroke="#f9a8d4" stroke-width="1" rx="2"/>
+    <circle cx="41" cy="17" r="1" fill="#f9a8d4"/>
+    
+    <!-- Mobile -->
+    <rect x="55" y="5" width="8" height="12" fill="none" stroke="#f9a8d4" stroke-width="1" rx="2"/>
+    <circle cx="59" cy="15" r="0.5" fill="#f9a8d4"/>
+  </g>
+  
+  <!-- Performance Metrics -->
+  <g transform="translate(320,180)">
+    <circle cx="20" cy="20" r="15" fill="none" stroke="#ec4899" stroke-width="2"/>
+    <path d="M 20 8 L 20 20 L 28 20" stroke="#ec4899" stroke-width="2" fill="none"/>
+    <text x="20" y="40" text-anchor="middle" fill="#f9a8d4" font-family="Arial, sans-serif" font-size="8">95+</text>
+    <text x="20" y="50" text-anchor="middle" fill="#f9a8d4" font-family="Arial, sans-serif" font-size="6">Lighthouse</text>
+  </g>
+  
+  <!-- Floating Development Icons -->
+  <circle cx="50" cy="50" r="2" fill="#f9a8d4" opacity="0.8"/>
+  <circle cx="350" cy="40" r="2" fill="#f9a8d4" opacity="0.8"/>
+  <circle cx="380" cy="120" r="2" fill="#f9a8d4" opacity="0.8"/>
+  <circle cx="20" cy="170" r="2" fill="#f9a8d4" opacity="0.8"/>
+  
+  <!-- Title Background -->
+  <rect x="120" y="240" width="160" height="30" fill="rgba(236, 72, 153, 0.1)" rx="15"/>
+  
+  <!-- Title Text -->
+  <text x="200" y="260" text-anchor="middle" fill="#f9a8d4" font-family="Arial, sans-serif" font-size="14" font-weight="600">Portfolio Website</text>
+</svg> 
